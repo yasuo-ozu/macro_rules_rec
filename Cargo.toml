@@ -2,6 +2,12 @@
 name = "macro_rules_rec"
 version = "0.1.0"
 edition = "2021"
+authors = ["Yasuo Ozu <yasuo@ozu.email>"]
+description = "Expand syntax of `macro_rules` to enable self recursive call"
+license = "MIT"
+keywords = ["macro_rules", "proc-macro", "macros"]
+categories = ["rust-patterns"]
+repository = "https://github.com/yasuo-ozu/macro_rules_rec"
 
 [lib]
 proc-macro = true
